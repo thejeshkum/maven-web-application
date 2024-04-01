@@ -6,7 +6,7 @@ node
     stage('maven'){
         sh "mvn clean package"
     }
-/*
+
     stage('sonarqube'){
         sh "mvn sonar:sonar"
     }
@@ -28,4 +28,4 @@ done.
 ''', subject: 'about build and deployment ', to: 'psivakumar3115@gmail.com'
  }
 }
-*/
+
